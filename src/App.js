@@ -23,7 +23,7 @@ function App() {
 
     </Switch>
     
-    
+    //make HashRouter
     
     </HashRouter>
    
