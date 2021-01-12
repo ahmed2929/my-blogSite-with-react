@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.61c2a7e4.chunk.css",
+    "main.js": "/static/js/main.8f1d0c9b.chunk.js",
+    "main.js.map": "/static/js/main.8f1d0c9b.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.6a4ac5e0.js",
+    "runtime-main.js.map": "/static/js/runtime-main.6a4ac5e0.js.map",
+    "static/js/2.ea753013.chunk.js": "/static/js/2.ea753013.chunk.js",
+    "static/js/2.ea753013.chunk.js.map": "/static/js/2.ea753013.chunk.js.map",
+    "static/js/3.5778471c.chunk.js": "/static/js/3.5778471c.chunk.js",
+    "static/js/3.5778471c.chunk.js.map": "/static/js/3.5778471c.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.61c2a7e4.chunk.css.map": "/static/css/main.61c2a7e4.chunk.css.map",
+    "static/js/2.ea753013.chunk.js.LICENSE.txt": "/static/js/2.ea753013.chunk.js.LICENSE.txt",
+    "static/media/homeImage.4d0e3d85.jpg": "/static/media/homeImage.4d0e3d85.jpg",
+    "static/media/pexels-adrien-olichon-2387793.258bf262.jpg": "/static/media/pexels-adrien-olichon-2387793.258bf262.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6a4ac5e0.js",
+    "static/js/2.ea753013.chunk.js",
+    "static/css/main.61c2a7e4.chunk.css",
+    "static/js/main.8f1d0c9b.chunk.js"
+  ]
+}

@@ -60,7 +60,15 @@ const  NavBar =()=>{
         
         
         />
-      
+        <SocialIcon
+        url="https://github.com/ahmed2929"
+        className="mr-4"
+        target="_blank"
+        fgColor="#fff"
+        style={{height:35,width:35}}
+        
+        
+        />
 
         </div>
 
