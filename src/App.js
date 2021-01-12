@@ -4,12 +4,12 @@ import About from "./components/About/About";
 import SinglePost from "./components/SinglePost/SinglePost";
 import Posts from "./components/Posts/Posts";
 import Project from "./components/Projects/Projects";
-import { Route,Switch,BrowserRouter } from "react-router-dom";
+import { Route,Switch,HashRouter } from "react-router-dom";
 import NavBar from './components/NavBar/NavBar';
 
 function App() {
   return (
-    <BrowserRouter basename={process.env.PUBLIC_URL}>
+    <HashRouter >
     <NavBar/>
     <Switch>
 
@@ -25,7 +25,7 @@ function App() {
     
     
     
-    </BrowserRouter>
+    </HashRouter>
    
    
   );
