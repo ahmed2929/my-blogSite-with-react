@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import sanityClient from "../../client.js";
 import imageUrlBuilder from "@sanity/image-url";
-import plumeria from "../../assets/homeImage.jpg";
+//import plumeria from "../../assets/homeImage.jpg";
 
 const builder = imageUrlBuilder(sanityClient);
 function urlFor(source) {
@@ -27,8 +27,8 @@ export default function About() {
   if (!author) return <div className="cursive text-6xl text-green-300 mb-4 justify-center">loading! 😃....</div>;
 
   return (
-    <main className="relative">
-      <img src={plumeria} alt="Plumeria Flower" className="absolute w-full" />
+    <main className="relative" style={{backgroundColor:'#1b1919'}}>
+      
       <div className="p-10 lg:pt-48 container mx-auto relative">
         <section className="bg-green-800 rounded-lg shadow-2xl lg:flex p-20">
           <img

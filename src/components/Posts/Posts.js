@@ -52,7 +52,7 @@ const  Posts =()=>{
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 sm:grid-cols-1">
           {posts &&
             posts.map((post, index) => (
-              <article>
+              <article key={index} > 
                 <Link to={"/posts/" + post.slug.current} key={post.slug.current}>
                 
                   <span

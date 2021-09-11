@@ -1,16 +1,12 @@
 import React from "react";
 
-import homeImage from "../../assets/pexels-adrien-olichon-2387793.jpg";
+//import homeImage from "../../assets/pexels-adrien-olichon-2387793.jpg";
 
 const Home =()=>{
     return(
         
-        <main>
-      <img
-        src={homeImage}
-        alt="home"
-        className="absolute object-cover w-full h-full"
-      />
+        <main style={{backgroundColor:'#1b1919'}}>
+     
       <section className="relative flex justify-center min-h-screen pt-12 lg:pt-64 px-8">
         <h1 className="text-6xl text-green-100 font-bold cursive leading-none lg:leading-snug home-name">
           hello. I'm Ahmed.
